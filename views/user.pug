@@ -1,0 +1,18 @@
+extends layout
+
+block style
+    link(rel="stylesheet" href="/user.css")
+
+
+
+block layout-content
+    div.View.UserView
+        h1.Banner HELLO_USER
+        div.Message
+            h3 Testing out this PUG template
+            h1 This is User Page
+
+        div.NavButtons
+            a(href="/logout")
+                div.NavButton Log Out
+
